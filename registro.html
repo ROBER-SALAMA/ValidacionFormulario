@@ -22,6 +22,7 @@
         </div>
         <section class="cartao">
             <h2 class="card__title">Completa tu registro</h2>
+
             <form action="./registro_concluido.html" class="formulario flex flex--column">
                 <fieldset>
                     <legend class="form__label">Información básica</legend>
@@ -45,7 +46,7 @@
                 <fieldset>
                     <legend class="form__label">Información personal</legend>
                     <div class="input-container">
-                        <input name="birth" id="birth" class="input" type="text" placeholder="Fecha de nacimento">
+                        <input name="birth" id="birth" class="input" type="date" placeholder="Fecha de nacimento">
                         <label class="input-label" for="birth">Fecha de nacimiento</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
@@ -78,6 +79,8 @@
             </form>
         </section>
     </main>
+
+    <script src="./assets/js/validaciones.js"></script>
 </body>
 
 </html>
